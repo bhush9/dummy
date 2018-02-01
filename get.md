@@ -26,19 +26,6 @@ Manual download:
 
 **[<span class="fa fa-angle-right" /> Learn more](/neon-arch-reference-rootfs)**
 
-Arch Linux based reference rootfs
----------------------------------
-
-![](/img/archlinux.png){:width="100"}
-
-Arch Linux based image also made by the Plasma Mobile developers. Known not to be as stable as the Neon based rootfs.
-This image uses Halium as hardware adaption layer.
-
-Manual download:
-[<span class="fa fa-download" /> generic](http://images.plasma-mobile.org/arch-rootfs/)
-
-**[<span class="fa fa-angle-right" /> Learn more](/neon-arch-reference-rootfs)**
-
 postmarketOS
 ------------
 
@@ -50,15 +37,28 @@ PostmarketOS (pmOS), is a touch-optimized, pre-configured Alpine Linux that can 
 
 **[<span class="fa fa-angle-right" /> Learn more](https://postmarketos.org)**
 
+Arch Linux based reference rootfs (deprecated)
+----------------------------------------------
+
+![](/img/archlinux.png){:width="100"}
+
+Arch Linux based image also made by the Plasma Mobile developers. Known not to be as stable as the Neon based rootfs.
+This image uses Halium as hardware adaption layer.
+
+Manual download:
+[<span class="fa fa-download" /> generic](http://images.plasma-mobile.org/arch-rootfs/)
+
+**[<span class="fa fa-angle-right" /> Learn more](/neon-arch-reference-rootfs)**
+
 **Desktop**
 -----------
 
-Neon based iso image
+Neon based ISO image
 --------------------
 
 ![](/img/neon.svg){:width="100"}
 
-Iso image using the same packages as the Neon based reference rootfs, just compiled for amd64.
+ISO image using the same packages as the Neon based reference rootfs, just compiled for amd64.
 This image can be tested on non-android intel tablets, PCs and virtual machines.
 
 **[<span class="fa fa-angle-right" /> Learn more](/intel-based-devices)**
