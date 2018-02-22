@@ -32,7 +32,7 @@ install more programs:
 
 To easily establish a wifi connection, execute:
 
-    $ wifi-setup SSID PASSWORD
+    $ nmcli dev wifi con "ssid" password "password"
 
 Notes:
 -----
