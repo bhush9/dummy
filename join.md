@@ -20,8 +20,12 @@ There are various community groups and channels about Plasma Mobile available to
 
 The Telegram and Matrix channels are bridged, so you don't have to join both
 
+* [![](/img/mail.svg){:width="30"} Plasma Mobile mailing list](https://mail.kde.org/mailman/listinfo/plasma-mobile)
+
 ### Plasma Mobile and other topics:
 
 * [![](/img/irc.png){:width="30"} IRC #plasma on Freenode](https://kiwiirc.com/nextclient/chat.freenode.net/#plasma)
 
 * [![](/img/telegram.svg){:width="30"} Telegram #Halium](https://t.me/Halium)
+
+* [![](/img/mail.svg){:width="30"} Plasma development mailing list](https://mail.kde.org/mailman/listinfo/plasma-devel)
