@@ -6,7 +6,9 @@ layout: default
 
 ![Konqi](/img/424px-Mascot_konqi-app-internet.png){:width="200"}
 
-There are various community groups and channels about Plasma Mobile available to join:
+If you'd like to contribute to the amazing free software for mobile devices, [join us - we always have a task for you](/contributing/)! 
+
+Plasma Mobile community groups and channels:
 
 ### Forums:
 
