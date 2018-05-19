@@ -10,6 +10,8 @@ skills, each paragraph explains how to get you going from a different
 starting point. Where else do you have the opportunity to shape a
 complete Mobile software environment?
 
+Current open tasks for Plasma Mobile are listed on [phabricator board](https://phabricator.kde.org/tag/plasma%3A_mobile/)
+
 I am a designer
 ===============
 
