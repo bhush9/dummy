@@ -60,7 +60,7 @@ information is useful:
     overview of relevant repositories can be found
     [here](https://community.kde.org/Plasma/Mobile/Code)
 
--   KDE provides a reference image based on Kubuntu, you can use this to
+-   KDE provides a reference image based on KDE Neon, you can use this to
     test against, look at integration-level solutions and borrow its
     tricks to get Plasma Mobile running
 
