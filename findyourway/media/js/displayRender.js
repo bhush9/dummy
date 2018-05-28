@@ -98,10 +98,10 @@ var DisplayRender = {
                                 choices: [  
                                     {
                                         type: "leaf",
-                                        target: "https://community.kde.org/KDE_Visual_Design_Group/KirigamiHIG",
+                                        target: "https://hig.kde.org/resources/contribute.html",
                                         choiceId: "target-kirigami-design",
                                         description: "Kirigami application design",
-                                        extraInfo: "designing applications following the Kirigami Human Interface Guidelines"
+                                        extraInfo: "joining KDE Visual Design Group and desigining applications following the Kirigami Human Interface Guidelines"
                                     },
                                      {
                                         type: "leaf",
@@ -177,21 +177,21 @@ var DisplayRender = {
                             },
                            {
                                 groupid: "outreach",
-                                groupquestion: "What is your specific area of interest?",
+                                groupquestion: "I am mostly interested in",
                                 choices: [  
                                     {
                                         type: "leaf",
                                         choiceId: "target-doc",
-                                        target: "https://community.kde.org/Plasma/Mobile",
+                                        target: "https://phabricator.kde.org/T4946",
                                         description: "Writting documentation",
-                                        extraInfo: ""
+                                        extraInfo: "documenting Plasma Mobile architecture, installation process, applications, etc."
                                     },
                                     {
                                         type: "leaf",
                                         choiceId: "target-promo",
                                         target: "https://community.kde.org/Promo",
-                                        description: "Promoting Plasma Mobile",
-                                        extraInfo: ""
+                                        description: "Promotion",
+                                        extraInfo: "joining KDE Promo team and promoting Plasma Mobile"
                                     }                                
                                 ]
                            }                            
