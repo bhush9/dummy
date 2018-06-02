@@ -150,8 +150,56 @@ var DisplayRender = {
                                         choiceId: "target-contact-book",
                                         description: "Contact book application",
                                         extraInfo: "working on the contact book application, integrating Plasma Mobile with contacts of the KPeople backends?"
-                                    }                                
-                                    
+                                    },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8900",
+                                        choiceId: "target-calculator",
+                                        description: "Calculator application",
+                                        extraInfo: "working on the calculator application, providing simple arithmetic operations and scientific calculations to Plasma Mobile users?"
+                                    },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8901",
+                                        choiceId: "target-weather",
+                                        description: "Weather application",
+                                        extraInfo: "working on the utility that allows the users to monitor the current weather in their location and offers them detailed forecasts?"
+                                    },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8902",
+                                        choiceId: "target-browser",
+                                        description: "Web Browser",
+                                        extraInfo: "developing a lightweight  browser that is optimized for usage in mobile devices?"
+                                    },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8904",
+                                        choiceId: "target-clock",
+                                        description: "Clock",
+                                        extraInfo: "working on the standalone clock, alarm, stopwatch and timer application?"
+                                    },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8906",
+                                        choiceId: "target-qr-scanner",
+                                        description: "QR code scanner",
+                                        extraInfo: "working on the application that enables the users to scan QR codes?"
+                                    },
+                                   {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8903",
+                                        choiceId: "target-audio-recorder",
+                                        description: "Audio Recorder",
+                                        extraInfo: "creating a simple application with a clean interface to offer fast and easy sound recording?"
+                                    },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8905",
+                                        choiceId: "target-compass",
+                                        description: "Compass",
+                                        extraInfo: "working on the compass application that will use the GPS and the sensors of the mobile device?"
+                                    }
                                 ]
                             },
                             
@@ -173,6 +221,34 @@ var DisplayRender = {
                                         description: "USB-MTP storage support",
                                         extraInfo: "providing USB/MTP storage support to Plasma Mobile devices?"
                                     },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8907",
+                                        choiceId: "target-bluetooth",
+                                        description: "Bluetooth",
+                                        extraInfo: "porting Plasma bluetooth capabilities to Plasma Mobile?"
+                                    },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8908",
+                                        choiceId: "target-battery",
+                                        description: "Battery",
+                                        extraInfo: "providing battery usage schemes per application as well as battery condition and energy consumption reporting?"
+                                    },
+                                    {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8909",
+                                        choiceId: "target-cell-buttons",
+                                        description: "Cell Buttons",
+                                        extraInfo: "enabling the user to configure the action of each device button?"
+                                    },
+                                  {
+                                        type: "leaf",
+                                        target: "https://phabricator.kde.org/T8910",
+                                        choiceId: "target-gestures",
+                                        description: "Gestures",
+                                        extraInfo: "creating the configuration infrastructure that will enable the users to match actions against gestures?"
+                                    }
                                 ]
                             },
                            {
