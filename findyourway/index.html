@@ -45,29 +45,14 @@
             
             <div id="footer">Based on <a href="https://github.com/jdm/asknot">asknot</a></div>
         </div>
-        <script src="media/js/jquery-1.11.2.min.js"></script>
+        <script src="media/js/jquery-3.3.1.min.js"></script>
+        <script src="media/js/handlebars.runtime.js"></script>
+        <script src="media/js/way.js"></script>
+        <script src="media/js/displayRender.js"></script>
         <script src="media/js/foopy.js"></script>
         <script src="media/js/l10n.js"></script>
-        <script src="media/js/displayRender.js"></script>
-        <script src="media/js/handlebars-v4.0.11.js"></script>
-        <script>
-            $(document).ready(function() {
-            DisplayRender.addHelpers();
-            DisplayRender.renderTemplate();
-            $('#responses div').show();
-            });
-        </script>
 
-        <script id="group-template" type="text/x-handlebars-template">
-            {{#each groups}}
-            <div class="group" {{group_info}}
-                    <ul class="choices">
-                        {{#each choices}}
-                        <li {{choice_info}}</li>
-                        {{/each}}
-                    </ul>
-            </div>
-            {{/each}}
-        </script>
+
+
     </body>
 </html>

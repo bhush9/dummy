@@ -242,7 +242,7 @@
         }
     }
 
-    $(window).load(function() {
+    $(window).on('load',function() {
         $('#ok a:first').on('click', investigate);
         $('#next a:first').on('click', nextChoice);
         $('#back a:first').on('click', takeBack);

@@ -1,0 +1,9 @@
+{{#each groups}}
+<div class="group" {{group_info}}
+        <ul class="choices">
+            {{#each choices}}
+            <li {{choice_info}}</li>
+            {{/each}}
+        </ul>
+</div>
+{{/each}}
