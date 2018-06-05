@@ -1,71 +1,5 @@
 @charset "utf-8";
 
-@font-face {
-    font-family: 'Montserrat';
-    font-weight: normal;
-    font-style: normal;
-    src: url("/media/fonts/montserrat-regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-weight: normal;
-    font-style: normal;
-    src: url("opensans-semibold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: 'Montserrat Light';
-    font-weight: normal;
-    font-style: normal;
-    src: url("/media/fonts/montserrat-light.ttf") format("truetype");
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-html {
-/*     background: url("/media/img/bg.png") repeat scroll 0 0 #eee; */
-    font-family: "Montserrat", sans-serif;
-}
-
-header {
-    position: relative;
-    min-height: 40px;
-    padding: 10px 100px;
-    background: rgba(0,0,0,0.05);
-    color: #333;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-}
-
-header .plamo-logo {
-    float: left;
-    width: 115px;
-    height: 30px;
-}
-
-header #lang-selection {
-    background: center left transparent no-repeat;
-    /*
-     * Icon attribution
-     * A’ Design Award & Competition, Onur Müştak Çobanlı and Farhat Datta
-     * http://www.languageicon.org
-     */
-    background-image: url(" /media/img/language_icon.png");
-    padding-left: 28px;
-    padding-bottom: 2px;
-}
-
-header #lang {
-    font-weight: 300;
-    text-align: right;
-}
-
 #wrapper {
     font-weight: 300;
     text-shadow: 0 1px 0 #fff;
@@ -73,19 +7,14 @@ header #lang {
     margin-top:0px;
     text-align: center;
     padding-top: 60px;
-}
+    padding-bottom: 1em;
+    
+}   
 
 @media screen and (max-width: 360px) {
     #wrapper {
         padding-top: 100px;
     }
-}
-
-select {
-    background: #fff;
-    border-color: #b2b2b2;
-    border-style: solid;
-    border-width: 1px;
 }
 
 .choices li {
@@ -101,10 +30,6 @@ select {
     padding-top: 60px;
 }
 
-a {
-    color: #F17100;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.9), 0px 1px 1px rgba(255,255,255,0.9);
-}
 
 .question {
     font-size: 20pt;
@@ -194,7 +119,7 @@ a {
 }
 
 #footer {
-    margin-top: 2em;
+    margin-top: 6em;
     color: #666;
 }
 

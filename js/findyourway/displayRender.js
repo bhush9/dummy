@@ -19,7 +19,7 @@
  *   along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 
-(function() {
+(function($) {
 
     var DisplayRender = {
         language: 'en',
@@ -278,7 +278,8 @@
                 }
         }
     }
-        DisplayRender.addHelpers();
-        DisplayRender.renderTemplate();
-        $('#responses div').show();
-})();
+
+    DisplayRender.addHelpers();
+    DisplayRender.renderTemplate();
+    $('#responses div').show();
+})(window.jQuery);
