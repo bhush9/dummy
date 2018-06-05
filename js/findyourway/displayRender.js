@@ -101,7 +101,7 @@
                                     choices: [  
                                         {
                                             type: "leaf",
-                                            target: "https://hig.kde.org/resources/contribute.html",
+                                            target: "https://phabricator.kde.org/T8963",
                                             choiceId: "target-kirigami-design",
                                             description: "Kirigami application design",
                                             extraInfo: "joining KDE Visual Design Group and desigining applications following the Kirigami Human Interface Guidelines"
