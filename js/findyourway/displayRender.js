@@ -202,6 +202,13 @@
                                             choiceId: "target-compass",
                                             description: "Compass",
                                             extraInfo: "working on the compass application that will use the GPS and the sensors of the mobile device?"
+                                        },
+                                        {
+                                            type: "leaf",
+                                            target: "https://phabricator.kde.org/T8961",
+                                            choiceId: "target-flashlight",
+                                            description: "Flashlight",
+                                            extraInfo: "creating a simple flashlight application?"
                                         }
                                     ]
                                 },
