@@ -209,6 +209,13 @@
                                             choiceId: "target-flashlight",
                                             description: "Flashlight",
                                             extraInfo: "creating a simple flashlight application?"
+                                        },
+                                        {
+                                            type: "leaf",
+                                            target: "https://phabricator.kde.org/T8968",
+                                            choiceId: "target-kde-connect",
+                                            description: "KDE Connect",
+                                            extraInfo: "improving the integration of Plasma Mobile with Linux Desktop environments and other devices?"
                                         }
                                     ]
                                 },
