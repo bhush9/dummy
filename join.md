@@ -31,3 +31,7 @@ The Telegram and Matrix channels are bridged, so you don't have to join both
 * [![](/img/telegram.svg){:width="30"} Telegram #Halium](https://t.me/Halium)
 
 * [![](/img/mail.svg){:width="30"} Plasma development mailing list](https://mail.kde.org/mailman/listinfo/plasma-devel)
+
+
+
+test, please ignore
