@@ -1,6 +1,7 @@
-node('master) {
+node {
+    echo 'Hello World'
     sh 'uname -a'
-    sh 'cat /etc/os-release'
     sh 'ip addr'
-    sh 'ping -c www.google.com'
+    sh 'ping -c 4 www.google.com'
+    sh 'cat /etc/os-release'
 }
